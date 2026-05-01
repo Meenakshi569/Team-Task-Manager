@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://team-task-manager-fd7s.onrender.com/',
+  baseURL: 'https://team-task-manager-fd7s.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
