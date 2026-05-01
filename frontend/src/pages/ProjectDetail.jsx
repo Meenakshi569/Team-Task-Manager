@@ -14,7 +14,10 @@ const ProjectDetail = () => {
   const { isAdmin } = useAuth();
 
   useEffect(() => {
-    if (id === 'new') return;
+    if (id === 'new') {
+      setLoading(false);
+      return;
+    }
     fetchProject();
     fetchTasks();
   }, [id]);

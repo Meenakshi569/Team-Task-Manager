@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import ProjectList from './pages/ProjectList';
 import ProjectDetail from './pages/ProjectDetail';
 import TaskBoard from './pages/TaskBoard';
+import CreateTask from './pages/CreateTask';
 import Navbar from './components/common/Navbar';
 
 const ProtectedRoute = ({ children }) => {
@@ -55,6 +56,12 @@ const AppRoutes = () => {
       <Route path="/tasks" element={
         <ProtectedRoute>
           <TaskBoard />
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/tasks/new" element={
+        <ProtectedRoute>
+          <CreateTask />
         </ProtectedRoute>
       } />
       
