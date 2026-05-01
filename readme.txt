@@ -22,5 +22,5 @@ How to Run:
 3. Run frontend: npm install && npm run dev
 
 Live Links:
-Frontend: https://your-vercel-link
-Backend: https://team-task-manager-fd7s.onrender.com
+Frontend: https://team-task-manager-rm20mkkdj-meenakshi569s-projects.vercel.app/
+Backend: https://team-task-manager-fd7s.onrender.com/
